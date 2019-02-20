@@ -28,7 +28,7 @@ public class MainActivity extends BroadcastReceiver {
                 if (Objects.equals(phoneNumber, "+917902302463")) {
                     Toast.makeText(context,phoneNumber,Toast.LENGTH_LONG).show();
                     // Toast.makeText(context,phoneNumber+"ok",Toast.LENGTH_LONG).show();
-                    MediaPlayer mediaPlayer = MediaPlayer.create(context,R.raw.child);
+                    MediaPlayer mediaPlayer = MediaPlayer.create(context,R.raw.erty);
                     mediaPlayer.start();
                 }
 
